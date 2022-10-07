@@ -9,9 +9,34 @@
       body {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas: '';
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 15px;
+        grid-template-areas: 
+        "h h h h"
+        "n m m m"
+        "n m m m"
+        "n m m m"
+        "n m m m"
+        "f f f f"
+        ;
       }
+
+      header {
+        grid-area: h;
+      }
+
+      nav {
+        grid-area: n;
+      }
+
+      main {
+        grid-area: m;
+      }
+
+      footer {
+        grid-area: f;
+      }
+
     </style>
   </head>
   <body id="basic-layout-1">
