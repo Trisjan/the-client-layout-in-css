@@ -9,14 +9,16 @@
       
       body {
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 10px;
-        grid-template-areas: 
-        "m m m m h"
-        "m m m m h"
-        "f f f f n"
-        "f f f f n";
+        grid-template-columns: 1fr 1fr 1fr 250px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px; 
+        grid-template-areas:
+          "h h h h"
+          "m m n n"
+          "m m n n"
+          "m m n n"
+          "m m n n"
+          "m m f f";
       }
 
       header {
